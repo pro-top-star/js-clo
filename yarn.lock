@@ -1217,19 +1217,19 @@
   dependencies:
     antlr4 "4.9.3"
 
-"@sap/cds-dk@6.5.2":
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/@sap/cds-dk/-/cds-dk-6.5.2.tgz#6092dbc6966bc190ddfd1460cd2061496163c02f"
-  integrity sha512-JH4UkDNGKKrV6IHQGJ43fpGClB4ODQbY3g/bMRlHMJnoByp+83TwzRDdu548XRS38gWQHaSEgj5ksDM4hd+c8w==
+"@sap/cds-dk@6.6.1":
+  version "6.6.1"
+  resolved "https://registry.npmjs.org/@sap/cds-dk/-/cds-dk-6.6.1.tgz#37e4bcd1360a16d9af4bea3cb188b6aabcf53280"
+  integrity sha512-PcdoSvt6nD0K1qRpjTpsDJ0pNxy4lEBnKM1oCLVVfRnZnVhjpZyTNinuLyPV2+4BeIYY4/s/D2/5BhFk2dz/qw==
   dependencies:
-    "@sap/cds" "^6.4.0"
+    "@sap/cds" "^6.6.0"
     "@sap/cds-foss" "^4"
-    "@sap/cds-mtxs" "^1.4.3"
+    "@sap/cds-mtxs" "^1.6.0"
     "@sap/eslint-plugin-cds" "^2.6.0"
     axios ">=0.21"
     eslint "^8"
     express "^4.17.1"
-    livereload-js "^3.3.1"
+    livereload-js "^4.0.0"
     md5 "^2.3.0"
     mustache "^4.0.1"
     node-watch ">=0.7"
@@ -1250,18 +1250,18 @@
     xmlbuilder "^15.1.1"
     yaml "^2.1.1"
 
-"@sap/cds-mtxs@^1.4.3":
-  version "1.4.4"
-  resolved "https://registry.npmjs.org/@sap/cds-mtxs/-/cds-mtxs-1.4.4.tgz#ec730f8309c5e71e3e343071aa7d6da4e560e6ff"
-  integrity sha512-ll+BMHLJZTFSAU/W4XRT+Ca3/+KEVO18vsgW1LzgVaA2aDtoG1D4+Lw/tcZCE7BdGD+/OnZHdPBG4vvNH7XErQ==
+"@sap/cds-mtxs@^1.6.0":
+  version "1.6.2"
+  resolved "https://registry.npmjs.org/@sap/cds-mtxs/-/cds-mtxs-1.6.2.tgz#5858519c2684f858d96e41fff3c1bd4787cc2320"
+  integrity sha512-oqA64jl13Uv9onQn4WMNcAXBdfuR7lnhn4LLBdO86qD+5khKtPiS22Ve6nnWsNkTQKils5OJ/GxTDnrFXjaj4w==
   dependencies:
     "@sap/hdi-deploy" "^4"
     axios ">=0.27.2"
 
-"@sap/cds@>=5.6.0", "@sap/cds@^6.1.1", "@sap/cds@^6.4.0", "@sap/cds@^6.4.1":
-  version "6.5.0"
-  resolved "https://registry.npmjs.org/@sap/cds/-/cds-6.5.0.tgz#9a65f852368911c3ddbe4d2594fcbaa52755f512"
-  integrity sha512-xzlFEgm2On2/iztS5rj6200cN+6GrszlKGEOnFXDicJYk9SjDOjWgkWX+1j75c9t7qOSi7vidRSKAKjFyALRXg==
+"@sap/cds@>=5.6.0", "@sap/cds@^6.1.1", "@sap/cds@^6.4.1", "@sap/cds@^6.6.0":
+  version "6.6.1"
+  resolved "https://registry.npmjs.org/@sap/cds/-/cds-6.6.1.tgz#a72d3f303eeebe44b1660ff5eafeeb8f3a23dbf2"
+  integrity sha512-1JKiYO+N9m5UME7aejce4K5j6mDLkQC0P6BWcHoQJtDjkjsVc6LCLNd06RJqU8XcxeGd3EwIF33GJTLDyGIkUQ==
   dependencies:
     "@sap/cds-compiler" "^3.2.0"
     "@sap/cds-foss" "^4"
@@ -6014,10 +6014,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-livereload-js@^3.3.1:
-  version "3.4.1"
-  resolved "https://registry.npmjs.org/livereload-js/-/livereload-js-3.4.1.tgz#ba90fbc708ed1b9a024bb89c4ee12c96ea03d66f"
-  integrity sha512-5MP0uUeVCec89ZbNOT/i97Mc+q3SxXmiUGhRFOTmhrGPn//uWVQdCvcLJDy64MSBR5MidFdOR7B9viumoavy6g==
+livereload-js@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/livereload-js/-/livereload-js-4.0.1.tgz#57b7fc9d3cbafacc5d32992df45fbc6bb25ed483"
+  integrity sha512-X19mASPEjbndNzT6qYqlxgDOaAWFuwymWdBqaSXHwWZUbPpqmEdvyYaPojPsIDM2SfC4cM3Wp92Hum3yP8z+0Q==
 
 load-yaml-file@^0.2.0:
   version "0.2.0"
@@ -9419,7 +9419,7 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@8.11.0:
+ws@8.11.0, ws@^8.4.2:
   version "8.11.0"
   resolved "https://registry.npmjs.org/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
   integrity sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==
@@ -9428,11 +9428,6 @@ ws@^7.0.0, ws@^7.4.6:
   version "7.5.9"
   resolved "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
-
-ws@^8.4.2:
-  version "8.9.0"
-  resolved "https://registry.npmjs.org/ws/-/ws-8.9.0.tgz#2a994bb67144be1b53fe2d23c53c028adeb7f45e"
-  integrity sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==
 
 ws@~7.4.0:
   version "7.4.6"
